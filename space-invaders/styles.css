@@ -1,0 +1,29 @@
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 300px;
+  height: 300px;
+}
+
+.grid div{
+  width: 20px;
+  height: 20px;
+}
+
+.shooter{
+  background-image: url("shooter.png");
+}
+
+.invader{
+  background-image: url("invader.png");
+  border-radius: 10px;
+}
+
+.boom{
+  background-image: url("boom.png");
+}
+
+.laser{
+  background-image: url("laser.png");
+}
